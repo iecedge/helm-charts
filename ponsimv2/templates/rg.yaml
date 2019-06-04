@@ -55,3 +55,5 @@ spec:
            command: [ "/bin/bash", "-c", "trap : TERM INT; sleep infinity & wait" ]
            securityContext:
              privileged: true
+       nodeSelector:
+         node-role.kubernetes.io/master: ""

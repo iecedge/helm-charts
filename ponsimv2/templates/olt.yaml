@@ -71,3 +71,5 @@ spec:
            ports:
             - containerPort: 50060
               name: grpc-port
+       nodeSelector:
+         node-role.kubernetes.io/master: ""
