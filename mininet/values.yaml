@@ -22,7 +22,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: ciena/mininet
+  repository: ciprian4enea/ciena-mininet
   tag: latest
   pullPolicy: IfNotPresent
 
