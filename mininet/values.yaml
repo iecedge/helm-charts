@@ -49,4 +49,4 @@ affinity:
 annotations:
   cni: "calico,pon1"
 
-onosOpenflowSvc: "onos-openflow.default.svc.cluster.local"
+onosOpenflowSvc: "cord-platform-onos-openflow.default.svc.cluster.local"
