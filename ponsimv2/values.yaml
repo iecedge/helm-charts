@@ -23,11 +23,11 @@ images:
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
   rg:
-    repository: 'ciprian4enea/voltha-tester'
+    repository: 'iecedge/voltha-tester'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
   pon0:
-    repository: 'ciprian4enea/pon0-network'
+    repository: 'iecedge/pon0-network'
     tag: 'latest'
     pullPolicy: 'Always'
 
