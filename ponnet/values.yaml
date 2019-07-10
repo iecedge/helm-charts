@@ -17,7 +17,7 @@ pull_docker_registry:
 
 images:
   pon0:
-    repository: ciprian4enea/pon0-network
+    repository: iecedge/pon0-network
     tag: 'latest'
     pullPolicy: 'Always'
   
