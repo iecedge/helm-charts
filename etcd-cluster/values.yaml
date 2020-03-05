@@ -27,7 +27,7 @@ etcdNodePort: ""
 
 images:
   etcd:
-    repository: "quay.io/coreos/etcd"
+    repository: "iecedge/etcd_arm64"
     tag: "v3.2.18"
   busybox:
     repository: "busybox"

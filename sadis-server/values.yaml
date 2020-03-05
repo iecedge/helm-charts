@@ -14,7 +14,7 @@
 
 
 image:
-  repository: 'opencord/sadis-server'
+  repository: 'valentinradulescu19/sadis-server-arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

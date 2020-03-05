@@ -184,5 +184,5 @@ spec:
             name: ponnet-config
       containers:
         - name: pause
-          image: gcr.io/google_containers/pause
+          image: gcr.io/google_containers/pause-arm64:2.0
 

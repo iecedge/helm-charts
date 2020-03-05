@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'xosproject/att-workflow-driver-synchronizer'
+  repository: 'valentinradulescu19/att-workflow-driver-arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

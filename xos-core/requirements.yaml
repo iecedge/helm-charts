@@ -16,8 +16,8 @@
 dependencies:
 - name: xos-db
   version: 1.0.2
-  repository: https://charts.opencord.org
+  repository: file://../xos-db
 - name: xos-gui
   version: 1.2.7
-  repository: https://charts.opencord.org
+  repository: file://../xos-gui
   condition: xos-gui.enabled

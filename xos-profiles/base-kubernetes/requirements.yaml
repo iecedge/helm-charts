@@ -16,4 +16,4 @@
 dependencies:
 - name: kubernetes
   version: 1.3.2
-  repository: https://charts.opencord.org
+  repository: file://../../xos-services/kubernetes

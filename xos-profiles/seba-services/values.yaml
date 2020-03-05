@@ -24,13 +24,13 @@ fullnameOverride: ""
 
 images:
   tosca_loader:
-    repository: 'xosproject/tosca-loader'
+    repository: 'valentinradulescu19/tosca-loader-arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   xos_api_tester:
-    repository: 'xosproject/xos-api-tester'
-    tag: 'master'
+    repository: 'cachengo/xos-api-tester'
+    tag: '2.0.6-dev'
     pullPolicy: 'Always'
 
 global:
