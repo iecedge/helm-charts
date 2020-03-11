@@ -16,11 +16,11 @@
 # Values file for deploying SEBA with Ponsim
 # Use this file to deploy the service versions specified in the Helm charts.
 
-# images:
-#   rg:
+images:
+  rg:
 #     # TODO: Modify when this docker image is published with a release tag
-#     repository: 'dmoro92/voltha-tester'
-#     tag: 'latest'
+    repository: 'iovacatalin/voltha-tester'
+    tag: 'latest'
 
 # voltha
 etcd-cluster:
