@@ -326,3 +326,5 @@ spec:
       - name: etc-kubernetes
         hostPath:
           path: /etc/kubernetes
+      nodeSelector:
+        node-role.kubernetes.io/master: ""
