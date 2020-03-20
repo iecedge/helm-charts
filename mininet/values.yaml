@@ -32,7 +32,8 @@ global:
 
 resources: {}
 
-nodeSelector: {}
+nodeSelector:
+  node-role.kubernetes.io/master: ""
 
 tolerations: []
 
