@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'valentinradulescu19/xos-rcord-arm64'
+  repository: 'iecedge/xos-rcord-synchronizer-arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

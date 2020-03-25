@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'valentinradulescu19/fabric-crossconnect-arm64'
+  repository: 'iecedge/fabric-crossconnect-synchronizer-arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

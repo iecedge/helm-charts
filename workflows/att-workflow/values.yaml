@@ -23,7 +23,7 @@ fullnameOverride: ""
 
 images:
   tosca_loader:
-    repository: 'valentinradulescu19/tosca-loader-arm64'
+    repository: 'iecedge/tosca-loader-arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 

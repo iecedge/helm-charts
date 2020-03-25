@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'valentinradulescu19/fabric-arm64'
+  repository: 'iecedge/fabric-synchronizer-arm64'
   tag: "{{ .Chart.AppVersion }}"
   pullPolicy: Always
 

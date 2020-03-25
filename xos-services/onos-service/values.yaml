@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'valentinradulescu19/onos-service-arm64'
+  repository: 'iecedge/onos-service-synchronizer-arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

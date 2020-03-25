@@ -16,12 +16,12 @@
 # Docker Images
 images:
   xos_gui:
-    repository: 'valentinradulescu19/xos-gui-arm64'
+    repository: 'iecedge/xos-gui-arm64'
     tag: "{{ .Chart.AppVersion }}"
     pullPolicy: 'Always'
 
   xos_ws:
-    repository: 'valentinradulescu19/xos-rest-gw-arm64'
+    repository: 'iecedge/xos-rest-gw-arm64'
     tag: '2.0.2'
     pullPolicy: 'Always'
 
