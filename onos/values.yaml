@@ -21,13 +21,13 @@ replicaCount: 1
 
 images:
   onos:
-    repository: 'valentinradulescu19/onos-arm64'
+    repository: 'iecedge/onos-arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   # keep in sync with: https://github.com/helm/charts/blob/master/stable/filebeat/values.yaml
   log_agent:
-    repository: 'iecedge/filebeat-oss_arm64'
+    repository: 'iecedge/filebeat-oss-arm64'
     tag: 6.4.2
     pullPolicy: IfNotPresent
 

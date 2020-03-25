@@ -23,7 +23,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
-  repository: 'valentinradulescu19/volt-arm64'
+  repository: 'iecedge/volt-synchronizer-arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

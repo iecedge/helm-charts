@@ -14,7 +14,7 @@
 
 
 image:
-  repository: 'valentinradulescu19/sadis-server-arm64'
+  repository: 'iecedge/sadis-server-arm64'
   tag: '{{ .Chart.AppVersion }}'
   pullPolicy: 'Always'
 

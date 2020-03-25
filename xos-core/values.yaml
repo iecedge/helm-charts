@@ -17,17 +17,17 @@
 # YAML variable names can't contain `-`, so substituted with `_`
 images:
   xos_core:
-    repository: 'valentinradulescu19/xos-core-arm64'
+    repository: 'iecedge/xos-core-arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   xos_chameleon:
-    repository: 'valentinradulescu19/xos-chameleon-arm64'
+    repository: 'iecedge/xos-chameleon-arm64'
     tag: '3.3.0'
     pullPolicy: 'Always'
 
   xos_tosca:
-    repository: 'valentinradulescu19/xos-tosca-arm64'
+    repository: 'iecedge/xos-tosca-arm64'
     tag: '1.3.0'
     pullPolicy: 'Always'
 
