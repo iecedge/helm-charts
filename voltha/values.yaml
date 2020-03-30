@@ -60,37 +60,37 @@ loglevel: "DEBUG"
 
 images:
   vcore:
-    repository: 'iovacatalin/voltha-voltha'
+    repository: 'iecedge/voltha-voltha_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   vcli:
-    repository: 'iovacatalin/voltha-cli'
+    repository: 'iecedge/voltha-cli_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   ofagent:
-    repository: 'iovacatalin/voltha-ofagent'
+    repository: 'iecedge/voltha-ofagent_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   netconf:
-    repository: 'iovacatalin/voltha-netconf'
+    repository: 'iecedge/voltha-netconf_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   envoy_for_etcd:
-    repository: 'iovacatalin/voltha-envoy'
+    repository: 'iecedge/voltha-envoy_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   alarm_generator:
-    repository: 'iovacatalin/voltha-alarm-generator'
+    repository: 'iecedge/voltha-alarm-generator_arm64'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: 'Always'
 
   freeradius:
-    repository: 'iovacatalin/freeradius'
+    repository: 'iecedge/freeradius'
     tag: '2.2.9'
     pullPolicy: 'Always'
 

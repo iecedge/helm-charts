@@ -23,7 +23,7 @@ fullnameOverride: ""
 
 images:
   mininet:
-    repository: 'iovacatalin/mininet'
+    repository: 'iecedge/mininet'
     tag: '{{ .Chart.AppVersion }}'
     pullPolicy: IfNotPresent
 

@@ -19,7 +19,7 @@
 images:
   rg:
 #     # TODO: Modify when this docker image is published with a release tag
-    repository: 'iovacatalin/voltha-tester'
+    repository: 'iecedge/voltha-tester'
     tag: 'latest'
 
 # voltha
