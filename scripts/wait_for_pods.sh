@@ -23,7 +23,7 @@ set -e -o pipefail
 fail_wfp=0
 
 # Set these to configure maximum timeout, and interval for checks
-PODS_TIMEOUT=${PODS_TIMEOUT:-1200}
+PODS_TIMEOUT=${PODS_TIMEOUT:-600}
 CHECK_INTERVAL=${CHECK_INTERVAL:-5}
 KUBECTL_ARGS=${KUBECTL_ARGS:-}
 
