@@ -18,7 +18,7 @@ global:
 
 images:
   kpi_exporter:
-    repository: 'opencord/kafka-topic-exporter'
+    repository: 'iecedge/kafka-topic-exporter_arm64'
     tag: '1.2.6'
     pullPolicy: 'Always'
 
