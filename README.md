@@ -1,12 +1,15 @@
 # Helm charts for CORD
 
-This repo contains the helm charts for use in the [CORD](https://opencord.org/)
-and subsidiary projects.
+This repo contains helm charts forked from [CORD](https://opencord.org/)
+and subsidiary projects, to be used to deploy SEBA on ARM architectures.
 
-Thes charts are published on: <https://charts.opencord.org/>
+Thes charts are published on: <https://iecedge.github.io/helm-charts/cord>
 
 Please see <https://guide.opencord.org/charts/helm.html> for more complete
-documentation.
+documentation on the Opencord usecases and components.
+
+Please see <https://wiki.akraino.org/pages/viewpage.action?pageId=18481623>
+for more information in Akraino IEC Platform.
 
 ## Changing charts
 
