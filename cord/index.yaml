@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  att-workflow-driver:
+  - apiVersion: v1
+    appVersion: 1.2.3
+    created: "2020-05-05T19:18:30.3310468+03:00"
+    description: A Helm chart for XOS's "att-workflow-driver" service
+    digest: b6e97546f6e4e40ff1e44870f70c2cdc66bcd5956ac3725216807132d4a174f9
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: att-workflow-driver
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/att-workflow-driver-1.1.2/att-workflow-driver-1.1.2.tgz
+    version: 1.1.2
+generated: "2020-05-05T19:18:29.6972932+03:00"
