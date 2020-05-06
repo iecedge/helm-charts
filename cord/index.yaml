@@ -26,6 +26,21 @@ entries:
     urls:
     - https://github.com/iecedge/helm-charts/releases/download/att-workflow-driver-1.1.2/att-workflow-driver-1.1.2.tgz
     version: 1.1.2
+  base-kubernetes:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2020-05-06T14:04:26.7669271+03:00"
+    dependencies:
+    - name: kubernetes
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 1.3.2
+    description: A Helm chart for XOS's "base-kubernetes" profile
+    digest: 031527475f6748efb916cc376cb99feebff33dbd77b7136b60bae5f451d8de20
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: base-kubernetes
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/base-kubernetes-1.2.3/base-kubernetes-1.2.3.tgz
+    version: 1.2.3
   fabric:
   - apiVersion: v1
     appVersion: 2.3.0
@@ -80,6 +95,16 @@ entries:
     urls:
     - https://github.com/iecedge/helm-charts/releases/download/onos-2.0.1-b2/onos-2.0.1-b2.tgz
     version: 2.0.1-b2
+  - apiVersion: v1
+    appVersion: 2.2.1-b5
+    created: "2020-05-06T14:04:27.5988796+03:00"
+    description: Open Network Operating System
+    digest: deab4a3a5074f250b2cf2a2e09bfe1130721cee03fc7e9fb039ae3d4ef0716e5
+    icon: https://guide.opencord.org/logos/onos.svg
+    name: onos
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/onos-2.0.1-b2/onos-2.0.1-b2.tgz
+    version: 2.0.1-b2
   onos-service:
   - apiVersion: v1
     appVersion: 2.1.3
@@ -111,6 +136,43 @@ entries:
     urls:
     - https://github.com/iecedge/helm-charts/releases/download/sadis-server-1.0.4/sadis-server-1.0.4.tgz
     version: 1.0.4
+  seba-services:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2020-05-06T14:04:28.3958689+03:00"
+    dependencies:
+    - name: rcord
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 1.0.17
+    - condition: onos-service.enabled
+      name: onos-service
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 2.1.4
+    - condition: fabric.enabled
+      name: fabric
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 2.3.0
+    - name: volt
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 2.2.5
+    - condition: bng.external.enabled
+      name: fabric-crossconnect
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 1.3.0
+    - condition: bng.embedded.enabled
+      name: vrouter
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 2.1.0
+    - name: sadis-server
+      repository: https://iecedge.github.io/helm-charts/cord
+      version: 1.0.4
+    description: A Helm chart for XOS's "SEBA" profile
+    digest: 39616e4660aa4524025c95d80876ae2aa787757b6e6961b83aadce950944e944
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: seba-services
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/seba-services-1.4.4/seba-services-1.4.4.tgz
+    version: 1.4.4
   volt:
   - apiVersion: v1
     appVersion: 2.2.4
