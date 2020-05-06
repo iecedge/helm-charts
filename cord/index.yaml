@@ -26,6 +26,39 @@ entries:
     urls:
     - https://github.com/iecedge/helm-charts/releases/download/att-workflow-driver-1.1.2/att-workflow-driver-1.1.2.tgz
     version: 1.1.2
+  fabric:
+  - apiVersion: v1
+    appVersion: 2.3.0
+    created: "2020-05-06T13:57:39.9959188+03:00"
+    description: A Helm chart for XOS's "fabric" service
+    digest: 5624e534eadfbaa0466f58a3d140038cbf8a3cc444b564b7f6e31a940675035c
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: fabric
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/fabric-2.3.0/fabric-2.3.0.tgz
+    version: 2.3.0
+  fabric-crossconnect:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2020-05-06T13:57:40.2090356+03:00"
+    description: A Helm chart for XOS's "fabric-crossconnect" service
+    digest: 6ac9d02e123e5b54b540cee701dbf38db346317854c8ae406fe5a9c6f126f6f4
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: fabric-crossconnect
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/fabric-crossconnect-1.3.0/fabric-crossconnect-1.3.0.tgz
+    version: 1.3.0
+  kubernetes:
+  - apiVersion: v1
+    appVersion: 1.3.2
+    created: "2020-05-06T13:57:41.1203839+03:00"
+    description: A Helm chart for XOS's "kubernetes" service
+    digest: 65779585b5ad1bcb91707444aa0e184bf1f206fd71421608a4fbee4c2431213a
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: kubernetes
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/kubernetes-1.3.2/kubernetes-1.3.2.tgz
+    version: 1.3.2
   onos:
   - apiVersion: v1
     appVersion: 2.2.1-b5
@@ -37,4 +70,67 @@ entries:
     urls:
     - https://github.com/iecedge/helm-charts/releases/download/onos-2.0.1-b2/onos-2.0.1-b2.tgz
     version: 2.0.1-b2
+  - apiVersion: v1
+    appVersion: 2.2.1-b5
+    created: "2020-05-06T13:57:41.3043811+03:00"
+    description: Open Network Operating System
+    digest: deab4a3a5074f250b2cf2a2e09bfe1130721cee03fc7e9fb039ae3d4ef0716e5
+    icon: https://guide.opencord.org/logos/onos.svg
+    name: onos
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/onos-2.0.1-b2/onos-2.0.1-b2.tgz
+    version: 2.0.1-b2
+  onos-service:
+  - apiVersion: v1
+    appVersion: 2.1.3
+    created: "2020-05-06T13:57:41.5044252+03:00"
+    description: A Helm chart for XOS's "onos-service" service, which configures ONOS
+    digest: 6ed37ca7af4ab1b6a656ce72b5303c18aa16282ae870591c59687d0b2338c012
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: onos-service
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/onos-service-2.1.4/onos-service-2.1.4.tgz
+    version: 2.1.4
+  rcord:
+  - apiVersion: v1
+    appVersion: 1.3.3
+    created: "2020-05-06T13:57:41.6917994+03:00"
+    description: A Helm chart for XOS's "rcord" service
+    digest: 357f721c0a8eeeda8a780bfaf602b40ce204c1cd41511591be6e658ede5014a6
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: rcord
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/rcord-1.0.17/rcord-1.0.17.tgz
+    version: 1.0.17
+  sadis-server:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2020-05-06T13:57:41.8749323+03:00"
+    digest: 1e44e4b24377ddce789c29d8846415ebaf700f93da3b53f2504738eab218a3b9
+    name: sadis-server
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/sadis-server-1.0.4/sadis-server-1.0.4.tgz
+    version: 1.0.4
+  volt:
+  - apiVersion: v1
+    appVersion: 2.2.4
+    created: "2020-05-06T13:57:42.0745466+03:00"
+    description: A Helm chart for XOS's "olt-service" service
+    digest: 81871c6d8f6e446141c91c47bb98137fa7b0bf75d8408237300230dfb0c3308c
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: volt
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/volt-2.2.5/volt-2.2.5.tgz
+    version: 2.2.5
+  vrouter:
+  - apiVersion: v1
+    appVersion: 2.1.0
+    created: "2020-05-06T13:57:42.2578713+03:00"
+    description: A Helm chart for XOS's "vRouter" service
+    digest: 1db7a86258586ca76cc520b47c527317f536d075ba7a8e8db4d4e83dc60f623d
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vrouter
+    urls:
+    - https://github.com/iecedge/helm-charts/releases/download/vrouter-2.1.0/vrouter-2.1.0.tgz
+    version: 2.1.0
 generated: "2020-05-05T19:18:29.6972932+03:00"
