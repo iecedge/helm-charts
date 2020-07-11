@@ -43,7 +43,7 @@ spec:
          app: ponsim
          olt: olt{{ $i }}
        annotations:
-         cni: "calico,nni{{ $i }}"
+         cni: "{{ $.Values.default_cni }},nni{{ $i }}"
      spec:
        affinity:
         podAffinity:

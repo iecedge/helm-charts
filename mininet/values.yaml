@@ -57,3 +57,4 @@ vlanMatchDepth: 2
 enableMulticast: true
 numOlts: 1
 numOnus: 1
+default_cni: "calico"

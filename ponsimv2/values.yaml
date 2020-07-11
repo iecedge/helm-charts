@@ -41,3 +41,4 @@ numOnus: 1
 # legacyPonsim == true means that we are using voltha-1.6
 bandwidthProfile: true
 legacyPonsim: false
+default_cni: 'calico'
