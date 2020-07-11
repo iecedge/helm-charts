@@ -26,3 +26,4 @@ global:
 
 numOlts: 1 
 numOnus: 1
+default_cni: calico
